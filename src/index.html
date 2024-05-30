@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jovian Web | Bootstrap Version</title>
+    <meta charset="UTF-8" />
+    <meta property="og:title" content="Jovian Careers" />
+    <meta
+      name="description"
+      content="Learn about job openings at Jovian and submit your application now"
+    />
+    <meta
+      property="og:description"
+      content="Learn about job openings at Jovian and submit your application now"
+    />
+
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md shadow-sm">
+      <!-- Logo -->
+      <div class="container-md">
+        <a class="navbar-brand" href="#">
+          <img
+            src="images/logo.png"
+            alt="Jovian Logo"
+            height="30"
+            class="d-md-none"
+          />
+          <img
+            src="images/logowithtext.png"
+            alt="Jovian Logo with text"
+            height="30"
+            class="d-none d-md-inline"
+          />
+        </a>
+        <!-- Toggle Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://jovian.com/" target="_blank"
+                >Courses</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://jovian.com/" target="_blank"
+                >Programs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://youtube.com/@jovianhq"
+                target="_blank"
+                >Youtube</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="btn btn-primary ms-md-2"
+                href="https://jovian.com/?action=login&withEmail=1"
+                target="_blank"
+                >Sign In</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+    <div class="container px-4">
+      <div class="row flex-lg-row-reverse align-items-center g-4 py-5">
+        <div class="col-12 col-lg-6">
+          <img
+            src="images/team.jpg"
+            class="d-block mx-lg-auto img-fluid rounded"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1
+            class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-center text-lg-start"
+          >
+            About Jovian
+          </h1>
+          <p class="lead">
+            Jovian is a robust coding platform tailored for data science
+            endeavors. Featuring collaborative environments, it fosters
+            learning, sharing, and deploying projects seamlessly. Its integrated
+            notebooks and courses provide a comprehensive toolkit for aspiring
+            data scientists to hone their skills. With a vibrant community and
+            ample support, Jovian enables users to explore intricate data
+            science.
+          </p>
+          <p class="lead">We also offer industry-focused bootcamps:</p>
+          <ol>
+            <li>
+              <a href="#" class="text-decoration-none"
+                >Jovian Full Stack Developer Bootcamp</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none"
+                >Jovian Data Science Bootcamp</a
+              >
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jobs -->
+    <div class="container px-4 mt-2 mb-5">
+      <h2 class="text-center mb-4 fw-bold">Jobs Opportunities</h2>
+      <!-- Jobs Table -->
+      <div class="d-none d-md-block col-md-10 offset-md-1">
+        <table class="table table-bordered table-striped">
+          <tbody>
+            <tr id="table-head" class="table-primary text-center">
+              <th>Job Title</th>
+              <th>location</th>
+              <th>Salary</th>
+              <th>Posted On</th>
+            </tr>
+            <tr class="table-data">
+              <td>Fontend Developer</td>
+              <td>Remote</td>
+              <td>2,000 $</td>
+              <td>May 4, 2024</td>
+            </tr>
+            <tr class="table-data">
+              <td>Full Stack Developer</td>
+              <td>Karachi, Pakistan</td>
+              <td>700,000rs</td>
+              <td>May 3, 2024</td>
+            </tr>
+            <tr class="table-data">
+              <td>Data Scientist</td>
+              <td>Lahore, Pakistan</td>
+              <td>300,000rs</td>
+              <td>April 25, 2024</td>
+            </tr>
+            <tr class="table-data">
+              <td>Machine Learning Engineer</td>
+              <td>Remote</td>
+              <td>10,000 $</td>
+              <td>May 5, 2024</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Jobs List -->
+      <div class="d-md-none">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Frontend Developer</h5>
+            <h6 class="card-subtitle my-1 text-body-secondary">
+              Remote - 2,000$
+            </h6>
+            <small class="card-text text-body-secondary">May 4, 2024</small>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Full Stack Developer</h5>
+            <h6 class="card-subtitle my-1 text-body-secondary">
+              Karachi, Pakistan - 700,000rs
+            </h6>
+            <small class="card-text text-body-secondary">May 3, 2024</small>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Data Scientist</h5>
+            <h6 class="card-subtitle my-1 text-body-secondary">
+              Lahore-, Pakistan - 300,000rs
+            </h6>
+            <small class="card-text text-body-secondary">April 25, 2024</small>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">ML Engineer</h5>
+            <h6 class="card-subtitle my-1 text-body-secondary">
+              Remote - 10,000$
+            </h6>
+            <small class="card-text text-body-secondary">May 5, 2024</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Application Form -->
+    <div class="container px-4 mt-5">
+      <h2 class="text-center fw-bold">Submit Your Application</h2>
+      <form action="" class="col-md-10 offset-md-1">
+        <div class="mb-3 col-sm-11 col-md-5">
+          <label for="name" class="form-label">Full Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Sadiq Ali"
+          />
+        </div>
+        <div class="mb-3 col-sm-11 col-md-5">
+          <label for="email" class="form-label">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="sadiq@123.com"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3 col-sm-11 col-md-5">
+          <label for="phonenumber" class="form-label">Phone</label>
+          <input
+            type="tel"
+            class="form-control"
+            id="phonenumber"
+            placeholder="+92 300 2454781"
+          />
+        </div>
+        <div class="mb-3 col-sm-11 col-md-5">
+          <label for="dob" class="form-label">Date of Birth</label>
+          <input type="date" class="form-control" id="dob" />
+        </div>
+        <div class="mb-3 col-sm-11 col-md-5">
+          <label for="position" class="form-label">Position Applied For</label>
+          <select class="form-select" aria-label="Default select example">
+            <option value="">Select a Position</option>
+            <option value="fd">Frontend Developer</option>
+            <option value="fSD">Full Stack Developer</option>
+            <option value="dt">Data Scientist</option>
+            <option value="ml">ML Engineer</option>
+          </select>
+        </div>
+        <div class="mb-3 col-sm-11 col-md-5">
+          <label for="resume" class="form-label">Upload Resume</label>
+          <input type="file" class="form-control" id="resume" />
+        </div>
+        <div class="mb-3 col-md-7">
+          <label for="coverletter" class="form-label">Cover Letter</label>
+          <textarea
+            placeholder="Why should we consider you for the JOB?"
+            class="form-control"
+            id="coverletter"
+            name="coverletter"
+            rows="5"
+          ></textarea>
+        </div>
+        <div class="mb-3">
+          <input type="checkbox" id="terms" />
+          <label for="terms" class="form-check-label"
+            >I agree to the terms and conditions.</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-3 my-4 mt-5">
+      <div class="d-none d-sm-block">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="d-block d-sm-none">
+        <ul
+          class="nav justify-content-center border-bottom pb-3 mb-3 d-flex flex-column align-items-center"
+        >
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+          </li>
+        </ul>
+      </div>
+
+      <p class="text-center text-body-secondary">© 2024 Jovian, Inc</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
